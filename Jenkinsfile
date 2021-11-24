@@ -5,6 +5,7 @@ node {
     }
     stage("show files"){
         bat "dir"
+        bat "type Jenkinsfile"
 
     }
 }
